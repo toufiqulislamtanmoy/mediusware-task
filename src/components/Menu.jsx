@@ -1,5 +1,5 @@
 import React from 'react';
-import {NavLink , Outlet} from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 
 const Menu = () => {
     return (
@@ -8,10 +8,10 @@ const Menu = () => {
                 <div className="col-8">
                     <ul className="nav nav-pills mb-3 justify-content-center">
                         <li className="nav-item">
-                            <NavLink to='/problem-1' className={({isActive}) => `nav-link + ${(isActive ? " active" : "")}` }>Problem - 1</NavLink>
+                            <NavLink to='/problem-1' className={({ isActive }) => `nav-link + ${(isActive ? " active" : "")}`}>Problem - 1</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to='/problem-2' className={({isActive}) => `nav-link + ${(isActive ? " active" : "")}`}>Problem - 2</NavLink>
+                            <NavLink to='/problem-2' className={({ isActive }) => `nav-link + ${(isActive ? " active" : "")}`}>Problem - 2</NavLink>
                         </li>
                     </ul>
                 </div>
